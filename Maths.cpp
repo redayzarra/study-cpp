@@ -15,6 +15,12 @@ int main() {
 
     z = ++x;    // X will increment and then z will become x;
 
+    double x = 1 + 2 * 3;    // Multiplication and divison are higher
+
+    double a = 10;
+    double b = 5;
+
+    z = (a + 10) / (3 * b);
 
     std::cout << z;
 
