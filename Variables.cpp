@@ -13,4 +13,8 @@ int main() {
     int number = 0b11111111;
     cout << number << price << interestRate 
          << fileSize << letter << isValid;
+
+    short num = 100;
+    int another = num;
+    cout << another;
 }
