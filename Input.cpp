@@ -10,8 +10,9 @@ int main() {
 
     cin >> x >> y;
 
-    cout << x + y;
+    cout << x + y << endl;
 
+    // Excercise
     cout << "Enter a value in Celsius: ";
     int celsius;
     cin >> celsius;
