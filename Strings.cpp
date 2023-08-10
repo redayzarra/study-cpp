@@ -13,4 +13,17 @@ int main() {
     // cin >> name; Will ignore anything after space, including space
     getline(cin, name);
     cout << "Hi, " << name << "!" << endl;
+
+    string city, state, zip;
+
+    cout << "Enter your state: " << endl;
+    getline(cin, state);
+
+    cout << "Enter your city: " << endl;
+    getline(cin, city);
+
+    cout << "Enter your zipcode: " << endl;
+    getline(cin, zip);
+
+    cout << city << ", " << state << ", " << zip << endl;
 }
