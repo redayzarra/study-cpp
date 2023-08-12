@@ -13,4 +13,13 @@ int main() {
     } else {
         cout << "Hot.";
     }
+
+    int salary = 10'000;
+    if (salary < 3'000) {
+        cout << "Too low";
+    } else if (salary < 5'000) {
+        cout << "Not bad";
+    } else {
+        cout << "Jackpot!";
+    }
 }
