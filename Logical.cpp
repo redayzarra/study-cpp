@@ -14,4 +14,10 @@ int main() {
     // Not operator
     cout << boolalpha << !isOkay << endl
          << isOk;
+
+    // Order of operations: (), !, &&, ||
+    bool a = true;
+    bool b = false;
+    bool c = false;
+    bool result = b && !a; // A gets evaluated first and then b
 }
