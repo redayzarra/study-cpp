@@ -12,8 +12,19 @@ int main() {
         cin >> input;
 
         // If-Else statments to write the code:
-        
+
         /* if (input == 1) 
         *      cout << "You selected 1";
         *  else if (input == 2) ... */
+
+       switch (input) {
+            case 1:
+                cout << "You selected 1";
+                break;
+            case 2:
+                cout << "You selected 2";
+                break;
+            default: 
+                cout << "Goodbye!";
+       }
 }
