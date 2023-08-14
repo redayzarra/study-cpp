@@ -19,12 +19,32 @@ int main() {
 
        switch (input) {
             case 1:
-                cout << "You selected 1";
+                cout << "You selected 1" << endl;
                 break;
             case 2:
-                cout << "You selected 2";
+                cout << "You selected 2" << endl;
                 break;
             default: 
-                cout << "Goodbye!";
+                cout << "Goodbye!" << endl;
        }
+
+       // Exercise
+        cout << "Enter two numbers: ";
+        int first, second;
+        cin >> first >> second;
+
+        cout << "Enter a calculation: ";
+        char ops;
+        cin >> ops;
+
+        switch (ops) {
+            case '+': 
+                cout << first + second;
+                break;
+            case '-':
+                cout << first - second;
+                break;
+            default: 
+                cout << "Invalid operator!" << endl;
+        }
 }
