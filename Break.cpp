@@ -7,4 +7,12 @@ int main() {
         if (i % 3 == 0) break;
         cout << i << endl;
     }
+
+    // Exercise 
+    while (true) {
+        cout << "Number: ";
+        int number;
+        cin >> number;
+        if (number >= 1 && number <= 5) break;
+    }
 }
