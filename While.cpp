@@ -22,4 +22,15 @@ int main() {
             cout << "Enter a number between 1 and 5!";
         }
     }
+
+    // Exercise #2
+    int num;
+    while (number != 7) {
+        cout << "Guess: ";
+        cin >> num;
+        if (num != 7) {
+            cout << "The number should be 7";
+        }
+    }
+
 }
