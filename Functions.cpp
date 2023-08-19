@@ -2,10 +2,14 @@
 
 using namespace std;
 
-void greet(string firstName, string lastName) {
-    cout << "Hello, " + firstName + " " + lastName + "!";
+void greet(string name) {
+    cout << "Hello, " + name + "!";
+}
+
+string fullName(string firstName, string lastName) {
+    return firstName + " " + lastName;
 }
 
 int main() {
-    greet("ReDay", "Zarra");
+    greet(fullName("ReDay", "Zarra"));
 }
