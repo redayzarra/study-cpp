@@ -2,9 +2,13 @@
 
 using namespace std;
 
+// Function definition
 void greet(string name) {
     cout << "Hello, " + name + "!" << endl;
 }
+
+// Function declaration
+void greeting(string name);
 
 string fullName(string firstName, string lastName) {
     return firstName + " " + lastName;
