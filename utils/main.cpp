@@ -1,5 +1,5 @@
 #include <iostream>
-#include "utils/great.hpp"
+#include "greet.cpp"
 
 using namespace std;
 
