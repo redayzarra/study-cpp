@@ -1,7 +1,7 @@
 #include <iostream>
 #include "greet.cpp"
 
-using namespace std;
+using std::cout, std::cin, messaging::greet;
 
 int main() {
     greet("ReDay");

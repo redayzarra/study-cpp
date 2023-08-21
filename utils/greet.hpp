@@ -5,7 +5,9 @@
 
 using namespace std;
 
-// Function declaration
-void greet(string name);
+namespace messaging {
+    // Function declaration
+    void greet(string name);
+}
 
 #endif
