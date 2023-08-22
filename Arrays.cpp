@@ -18,4 +18,10 @@ int main() {
 
     cout << names[0] << endl  
          << array << endl;
+
+    // Static array - 0 indexed. All other elements will be zero
+    int nums[5] = {10, 20};
+
+    // Retuns the address of the array
+    cout << nums;
 }
