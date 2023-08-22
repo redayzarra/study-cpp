@@ -24,4 +24,14 @@ int main() {
 
     // Retuns the address of the array
     cout << nums;
+
+    // Iterate over the elements of the array
+    for (int num: nums) {
+        cout << num << endl;
+    }
+
+    // Iterate over the indices of the array
+    for (int i = 0; i < size(nums); i++) {
+        cout << nums[i] << endl;
+    }
 }
