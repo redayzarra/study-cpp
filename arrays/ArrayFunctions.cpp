@@ -8,6 +8,3 @@ void printNumbers(int numbers[], int size) {
         cout << numbers[i];
     }
 }
-
-
-printNumbers({1, 2, 4, 6});
