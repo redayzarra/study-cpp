@@ -11,7 +11,7 @@ int main() {
 
     // We will see the address of the first element of the array
     int* ptr = numbers;
-    cout << ptr;
+    cout << ptr[0] << endl;
     printNumbers(numbers);
     cout << numbers[0];
 }
