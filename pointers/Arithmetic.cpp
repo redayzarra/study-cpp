@@ -8,7 +8,6 @@ int main() {
 
     // Increments the pointer to the next element of the array
     ptr++;
-    cout << *(ptr * 2);
     cout << ptr[1];
 
     // Decrements the pointer to the previous element of the array
