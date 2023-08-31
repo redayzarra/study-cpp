@@ -13,6 +13,5 @@ int main() {
     // Decrements the pointer to the previous element of the array
     ptr--;
 
-
     cout << *ptr;
 }
