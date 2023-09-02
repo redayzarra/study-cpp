@@ -3,7 +3,8 @@
 using namespace std;
 
 int main() {
-    int* numbers = new int[5];
+    int capacity = 5;
+    int* numbers = new int[capacity];
     int entries = 0;
 
     while (true) {
@@ -13,9 +14,10 @@ int main() {
         if (cin.fail()) break;
         entries++;
 
-        if (entries == 5) {
+        if (entries == capacity) {
             // Create a temp array 
-            int* temp = new int[10];
+            capacity *= 2;
+            int* temp = new int[capacity];
 
             // Copy all elements to temp array
             for (int i = 0; i < entries; i++) {
@@ -31,4 +33,6 @@ int main() {
     for (int i = 0; i < entries; i++) {
         cout << numbers[i] << endl;
     }
+
+    delete[] numbers;
 }
